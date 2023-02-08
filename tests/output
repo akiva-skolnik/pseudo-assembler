@@ -1,0 +1,50 @@
+tests/errors.am:2 WARNING: label definition at .entry directive
+tests/errors.am:3 ERROR: unknown command MOV
+tests/errors.am:4 ERROR: 2.1 is not a valid integer
+tests/errors.am:4 ERROR: invalid operand 5t
+tests/errors.am:6 ERROR: multiple definitions of label c
+tests/errors.am:6 ERROR: register should be between 0 and 15, not -1
+tests/errors.am:6 ERROR: invalid source operand for lea
+tests/errors.am:6 ERROR: register should be between 0 and 15, not 16
+tests/errors.am:7 ERROR: comma at the end of string
+tests/errors.am:7 ERROR: too many operands for mov
+tests/errors.am:8 ERROR: unknown command d
+tests/errors.am:9 ERROR: invalid label r3
+tests/errors.am:9 ERROR: operand starts with a commas
+tests/errors.am:9 ERROR: too many operands for mov
+tests/errors.am:10 ERROR: multiple concusive commas
+tests/errors.am:11 ERROR: missing operand
+tests/errors.am:12 ERROR: invalid label aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+tests/errors.am:12 ERROR: register index should be between 10 and 15, not 9
+tests/errors.am:12 ERROR: invalid operand k;
+tests/errors.am:13 ERROR: invalid label r2
+tests/errors.am:13 ERROR: 4s8 is not a valid integer
+tests/errors.am:13 ERROR: illegal destinition operand for red
+tests/errors.am:13 ERROR: too many operands for red
+tests/errors.am:14 ERROR: invalid label 
+tests/errors.am:14 WARNING: label definition at .extern directive
+tests/errors.am:14 ERROR: invalid label mov
+tests/errors.am:15 ERROR: invalid label endm
+tests/errors.am:15 WARNING: label definition at .extern directive
+tests/errors.am:16 ERROR: invalid label macro
+tests/errors.am:16 WARNING: label definition at .entry directive
+tests/errors.am:17 ERROR: invalid label data
+tests/errors.am:17 WARNING: label definition at .entry directive
+tests/errors.am:18 ERROR: unknown command 
+tests/errors.am:19 ERROR: multiple definitions of label r16
+tests/errors.am:19 ERROR: missing opening quote at .string
+tests/errors.am:20 ERROR: invalid label .string
+tests/errors.am:20 ERROR: missing closing quote at .string
+tests/errors.am:21 ERROR: invalid label .data
+tests/errors.am:21 ERROR: missing opening quote at .string
+tests/errors.am:21 ERROR: invalid char number -41
+tests/errors.am:21 ERROR: invalid char number -108
+tests/errors.am:21 ERROR: missing closing quote at .string
+tests/errors.am:2 ERROR: both .entry and .extern have been used on label a
+tests/errors.am:16 WARNING: label b was not used
+tests/errors.am:17 ERROR: invalid label 
+tests/errors.am:23 WARNING: label x was not used
+
+tests/test.am:4 WARNING: label a was not used
+tests/test.am:6 WARNING: label a was not used
+ERROR: no such file tests/a.as

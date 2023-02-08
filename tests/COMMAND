@@ -1,0 +1,1 @@
+./assembler   tests/a    tests/t   tests/test   tests/errors   tests/ps  >  tests/output

@@ -1,0 +1,10 @@
+; data before code
+.string ""
+mov r2 ,  	r3
+.entry a
+; this is not error, page 36 III
+.entry a
+.extern b
+; this is not error, page 36 IV
+.extern b
+; no labels
